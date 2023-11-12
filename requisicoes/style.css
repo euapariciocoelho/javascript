@@ -1,7 +1,25 @@
-* {margin:0;padding:0;}
-body{background:#00964a;}
-.pokemon{display:flex;flex-wrap:wrap;list-style:none;}
-.pokemon__card{background:white;box-shadow:5px 5px 5px 1px rgba(64, 64, 64, 0.66);width:10%;margin:15px;height:auto;min-height:200px;display:flex;align-items:center;flex-direction:column;justify-content:space-evenly;text-align:center;border-radius:5px;position:relative;transition:all .2s ease-in-out;top:0;}
-.pokemon__card:hover{top: -5px;}
-.pokemon__thumb{width:100px;}
-.pokemon__title{font-size:16px;font-family:'arial';text-transform:capitalize;}
+input[type='number'] {
+    padding: 5px;
+    width: 50px;
+  }
+  
+  form label {
+    padding-left: 20px;
+  }
+  
+  .result-style {
+    display: flex;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 0.7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  img {
+    max-height: 200px;
+    padding-right: 20px;
+    border-radius: 20px;
+  }
